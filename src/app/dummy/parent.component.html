@@ -1,0 +1,8 @@
+<button (click)="triggerButtonClicked()">
+    Toggle
+</button>
+
+<p>Child content:</p>
+<div *ngIf="childVisible">
+    <ng-content></ng-content>
+</div>

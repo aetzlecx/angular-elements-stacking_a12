@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist/wc",
+    "types": []
+  },
+  "files": [
+    "src/app/dummy/dummy.main.ts",
+    "src/polyfills.ts"
+  ]
+}
